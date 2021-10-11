@@ -10,7 +10,7 @@ jobs:
       - name: Set User
         run: |
           net user
-          net user runneradmin _password_
+          net user runneradmin _password666666_
       - name: Config
         run: |
           echo "[common]" >> frpc.ini
